@@ -7,6 +7,12 @@ heroImage: '/blog-placeholder-1.jpg'
 
 Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
 
+| Month    | Savings |
+| -------- | ------- |
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
+
 ## Headings
 
 The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
@@ -40,6 +46,11 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 ### Output
 
 ![blog placeholder](/blog-placeholder-about.jpg)
+<p style="text-align: center;">Centered text</p>
+
+<p align="center">
+<image-caption>Figure1: Some image that I found</image-caption>
+</p>
 
 ## Blockquotes
 

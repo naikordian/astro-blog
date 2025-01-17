@@ -43,7 +43,7 @@ body {
 	line-height: 1.7;
 }
 main {
-	width: 720px;
+	width: 920px;
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
@@ -97,8 +97,17 @@ input {
 	font-size: 16px;
 }
 table {
+	/* Modified */
+  	border-collapse: collapse;
 	width: 100%;
 }
+
+/* Modified */
+th, td{
+    padding: 15px;
+    border: 1px solid #000000;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
@@ -126,7 +135,7 @@ hr {
 	border: none;
 	border-top: 1px solid rgb(var(--gray-light));
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
 	body {
 		font-size: 18px;
 	}
@@ -151,4 +160,20 @@ hr {
 	clip-path: inset(50%);
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
+}
+
+
+image-caption {
+  text-align: center;
+  font-size: .8rem;
+  color: lightgrey;
+}
+
+pre {
+    border: 1px solid #000000;
+}
+
+blockquote {
+	border-left: 4px solid #d1d9e0;
+	color: #59636e;
 }
