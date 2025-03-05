@@ -71,10 +71,10 @@ a:hover {
 	color: var(--accent);
 }
 p {
-	margin-bottom: 1em;
+	margin-bottom: 0em;
 }
 .prose p {
-	margin-bottom: 2em;
+	margin-bottom: 0em;
 }
 textarea {
 	width: 100%;
@@ -149,6 +149,7 @@ hr {
 	white-space: nowrap;
 }
 
+/* New */
 
 image-caption {
   text-align: center;
@@ -163,4 +164,10 @@ pre {
 blockquote {
 	border-left: 4px solid #d1d9e0;
 	color: #59636e;
+}
+
+.caption{
+	text-align: center;
+	color: grey;
+	font-style: italic;
 }
