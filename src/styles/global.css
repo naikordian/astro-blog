@@ -154,7 +154,7 @@ hr {
 image-caption {
   text-align: center;
   font-size: .8rem;
-  color: lightgrey;
+  color: grey;
 }
 
 pre {
@@ -164,10 +164,4 @@ pre {
 blockquote {
 	border-left: 4px solid #d1d9e0;
 	color: #59636e;
-}
-
-.caption{
-	text-align: center;
-	color: grey;
-	font-style: italic;
 }
